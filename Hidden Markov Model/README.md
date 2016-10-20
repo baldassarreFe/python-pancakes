@@ -1,7 +1,5 @@
 # Markov Model
 
-## Before we start
-
 ### Finding a text to train on
 Project Gutenberg<sup id="a1">[1](#f1)</sup> allows to easily access and download books from their website.
 Knowing the book id it can be downloaded and cached via ```gutenberg.getBook(id)```
@@ -43,6 +41,6 @@ To come...
 ## Hidden Markov Models
 To come...
 
-1. <a id="f1">Project Gutenberg [Website](#https://www.gutenberg.org/)</a> [↩](#a1)
-1. <a id="f2">Markov Chains on [Wikipedia](#https://en.wikipedia.org/wiki/Markov_chain)</a> [↩](#a2)
-1. <a id="f3">Random Walk on [Wikipedia](#https://en.wikipedia.org/wiki/Random_walk)</a> [↩](#a3)
+1. <a id="f1">Project Gutenberg [Website](https://www.gutenberg.org/)</a> [↩](#a1)
+1. <a id="f2">Markov Chains on [Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)</a> [↩](#a2)
+1. <a id="f3">Random Walk on [Wikipedia](https://en.wikipedia.org/wiki/Random_walk)</a> [↩](#a3)
