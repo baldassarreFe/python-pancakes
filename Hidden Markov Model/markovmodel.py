@@ -45,22 +45,23 @@ class MarkovModel():
         return [self.dic[s] for s in sequence]
 
 def exampleWithBook():
-    sentences = preprocessing.paragraph(gutenberg.getBook(35534))
+    sentences = preprocessing.paragraph(gutenberg.getBook(45334))
     dic = preprocessing.dictionary(sentences)
     mm = MarkovModel(dic)
     mm.update(sentences)
     for t in range(10):
         print(t,"\t"," ".join(mm.generate(T=15)))
+    print("Long sequence:\n" + " ".join(mm.generate(T=50)))
 
 def exampleWithCharacters():
     mm = MarkovModel("ABC")
     trainSequences1=["ABC"*40, "AABB"*30]
     mm.update(trainSequences1)
-    for t in range(10):
+    for t in range(3):
         print(t,"\t","".join(mm.generate(T=15)))
-    trainSequences2=["AAA"*40, "CCBB"*30]
+    trainSequences2=["AAA"*50, "CCBB"*50]
     mm.update(trainSequences2)
-    for t in range(10):
+    for t in range(3):
         print(t,"\t","".join(mm.generate(T=15)))
 
 if __name__ == '__main__':
