@@ -35,7 +35,7 @@ To account for the severity of the accidents it is possible to weight the travel
 In such a way the algorithm will favor the patients with higher priority.
 
 #### Credits
-The code that solves the Hungarian problem belongs to [this repo](#https://github.com/tdedecko/hungarian-algorithm) and is released under MIT licence.
+The code that solves the Hungarian problem belongs to [this repo](https://github.com/tdedecko/hungarian-algorithm) and is released under MIT licence.
 
-1. <a id="f1">Formally on [Wikipedia](#https://en.wikipedia.org/wiki/Hungarian_algorithm)</a> [↩](#a1)
-2. <a id="f2">Step by step on  [WikiHow](#http://www.wikihow.com/Use-the-Hungarian-Algorithm)</a> [↩](#a2)
+1. <a id="f1">Formally on [Wikipedia](https://en.wikipedia.org/wiki/Hungarian_algorithm)</a> [↩](#a1)
+2. <a id="f2">Step by step on  [WikiHow](http://www.wikihow.com/Use-the-Hungarian-Algorithm)</a> [↩](#a2)
