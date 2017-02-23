@@ -84,7 +84,7 @@ distances = np.array(
 priorities = np.array([2,1,3,1]) # least common multiple = 6
 print(distances)
 print(priorities)
-distances = np.array(distances * 6 / priorities, dtype = int)
+distances = np.array(distances * 6 / priorities, dtype=int)
 hungarian.calculate(distances)
 print(distances)
 solution = hungarian.get_results()
